@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Random Videos Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<h1>3 random videos</h1>
-<nav>
-	<ul>
-		<li>
-	
-<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" target="_blank">Big Buck Bunny</a>
-		</li>
-		<li>
-			<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" target="_blank">BiggerBlazes</a>
-		</li>
-		<li>
-		
-			<a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" target="_blank">SubaruOutbackOnStreetAndDirt</a>
-		</li>
-	</ul>
-	
-	
-	
-</nav>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Semantic Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About us</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Videos Section -->
+  <main>
+    <h1>3 random videos</h1>
+
+    <video controls width="480">
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls width="480">
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls width="480">
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
